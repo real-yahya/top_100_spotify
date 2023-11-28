@@ -24,7 +24,7 @@ scope = "playlist-modify-private"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     config.SPOTIPY_CLIENT_ID, config.SPOTIPY_CLIENT_SECRET, config.SPOTIPY_REDIRECT_URI, scope=scope, cache_path=".cache.py",
-    username='Yahya'))
+    username='oxy2m0nxdc7gz7cnmd8c5xl93'))
 
 
 song_uris = []
